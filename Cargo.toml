@@ -1,0 +1,16 @@
+[package]
+name = "typed-slab"
+version = "0.1.8"
+authors = ["Denis Kolodin <deniskolodin@gmail.com>"]
+edition = "2021"
+repository = "https://github.com/knwldev/typed-slab"
+homepage = "https://knowledge.dev"
+description = "Typed wrapper for Slab"
+readme = "README.md"
+keywords = ["slab", "allocator"]
+categories = ["memory-management", "data-structures"]
+license = "MIT"
+
+[dependencies]
+derive_more = "0.99.17"
+slab = "0.4.9"
